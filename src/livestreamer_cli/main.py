@@ -91,7 +91,7 @@ def create_output():
     return out
 
 
-def create_http_server(host=None, port=None):
+def create_http_server(host=None, port=0):
     """Creates a HTTP server listening on a random port."""
 
     try:
